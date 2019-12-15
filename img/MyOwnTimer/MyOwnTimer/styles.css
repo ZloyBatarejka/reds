@@ -1,0 +1,52 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+.window {
+font-family: 'Dosis', sans-serif;
+width: 100%;
+height: 100vh;
+background: red;
+background-image: linear-gradient(#4d55ff 50%,#1b23c2);
+display: flex;
+justify-content: space-around;
+color: #d9d9d9;
+}
+.buttons {
+	margin: auto;
+
+}
+.buttons input {
+	width: 120px;
+	margin: 15px;
+	height: 40px;
+	background: rgba(255, 135, 8,.3);
+	border: 1px solid rgba(255, 135, 8,.5);
+	border-radius: 20px;
+	font-size: 20px;
+	color: gainsboro;
+}
+.buttons input:hover {
+	border: 1px solid rgba(255, 255, 255,.5);
+	cursor: pointer;
+}
+.buttons input:focus {
+	border: none;
+}
+.leftBlock,.rightBlock{
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+}
+div.window {
+	display: flex;
+	flex-direction: column;
+}
+.leftBlock .number,.rightBlock .number {
+	margin-top: 20px;
+	font-size: 70px;
+}
+	

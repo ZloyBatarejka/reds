@@ -1,0 +1,40 @@
+.our_work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+}
+.our_work  h2{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 300;
+}
+.our_work h2 span {
+    font-weight: bold;
+}
+.our_work .textwork {
+    max-width: 1120px;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 170px;
+
+}
+.our_work .gallery {
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.our_work .center {
+    display: block;
+    text-align: center;
+}
+.our_work .line1 img ,.line2 img , .line3 img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.gallery img:hover {
+    opacity: 0.9;
+}

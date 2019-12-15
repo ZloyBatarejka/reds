@@ -1,0 +1,49 @@
+@import "./variables";
+
+main .wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+main .main_about {
+    display:flex;
+    padding: 100px 0;
+    justify-content: space-around;
+}
+
+main .main_about .about_right {
+    margin-left: 175px;
+    max-width: 420px;
+}
+
+.about_right h2 {
+    display: inline-block;
+    border-bottom: 5px solid $orange;
+    padding-bottom: 21px;
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+.about_right h2 span {
+    font-weight: bold;
+   
+}
+.about_right p {
+    font-size: 18px;
+    color: #6c6c6c;
+    margin-bottom: 50px;
+}
+
+.about_right li {
+    color: #6c6c6c;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
+.about_right li span{
+    background: url(img/list.png) 0px no-repeat ;   
+    padding-left: 25px;
+    color: #5a5a5a;
+    font-weight: bold;
+    font-style: normal;
+}

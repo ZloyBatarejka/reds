@@ -1,0 +1,39 @@
+@import "./variables";
+.header_logo {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 57px;
+    margin-left: 12%;
+}
+nav{
+    margin-top: 57px;
+    
+}
+div.topnav {
+
+    .icon {
+        display: none;
+        &:hover{
+            border: none;
+        }
+    }
+
+}
+.topnav a{
+display: inline-block;
+text-transform: uppercase;
+text-align: center;
+color: white;
+padding-bottom: 12px;
+font-size: 14px;
+margin: 2px 16px 2px 16px;
+font-weight: bold;
+min-height: 40px;
+
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid $orange;
+}

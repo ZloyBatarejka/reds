@@ -1,0 +1,33 @@
+@import "./variables";
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    background: white;
+}
+main .main_welcome {
+    padding-top: 205px; 
+    text-align: center;
+    padding-bottom: 420px;
+    background: black;
+   
+}
+.main_welcome h1 {
+    font-size: 44px;
+    font-weight: normal;
+    color: #858585;
+    text-transform: uppercase;
+}
+.main_welcome h1 span {
+    color: $orange;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_welcome p {
+    font-size: 20px;
+    color: #646464;
+    
+}
+.main_welcome p span {
+    color: #c3c3c3;
+}

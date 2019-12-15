@@ -1,0 +1,44 @@
+@import "./variables";
+.our_team {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color:white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 166px;
+}
+.our_team h2{
+    font-size: 44px;
+}
+.our_team .line{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+div.team_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1130px;
+    
+}
+div.team_cards .card {
+    margin-left: 40px;
+}
+.card img {
+    margin-bottom: 25px;
+}
+.card .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .position {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.card p {
+    font-size: 14px;
+    
+  
+}
