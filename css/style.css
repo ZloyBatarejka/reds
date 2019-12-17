@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 .header_logo {
   text-transform: uppercase;
   color: white;
@@ -41,8 +44,8 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   background: white;
 }
@@ -64,7 +67,7 @@ main .main_welcome {
 .main_welcome h1 span {
   color: #f79412;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main_welcome p {
@@ -88,7 +91,7 @@ main .main_about {
   display: flex;
   padding: 100px 0;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 main .main_about .about_right {
@@ -136,8 +139,8 @@ main .main_about .about_right {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background: black;
   color: white;
   text-align: center;
@@ -160,10 +163,10 @@ div.team_cards {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0 auto;
   max-width: 1130px;
 }
@@ -197,7 +200,7 @@ div.team_cards .card {
   max-width: 1130px;
   margin: 0 auto;
   -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 20px;
 }
 
@@ -207,8 +210,8 @@ div.team_cards .card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: zzz;
 }
 
@@ -244,8 +247,8 @@ div.team_cards .card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .main_client h2 {
@@ -272,12 +275,12 @@ div.team_cards .card {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   text-align: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 120px;
 }
 
@@ -294,8 +297,8 @@ div.team_cards .card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   color: white;
 }
 
@@ -335,10 +338,10 @@ div.team_cards .card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -372,7 +375,9 @@ div.team_cards .card {
   text-align: center;
 }
 
-.our_work .line1 img, .line2 img, .line3 img {
+.our_work .line1 img,
+.line2 img,
+.line3 img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -419,8 +424,8 @@ input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 textarea {
@@ -429,7 +434,8 @@ textarea {
   margin-top: 30px;
 }
 
-input, textarea {
+input,
+textarea {
   border: 1px solid #999999;
 }
 
@@ -449,7 +455,7 @@ input, textarea {
 }
 
 input:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .buttonBlock input {
@@ -469,8 +475,8 @@ input:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 210px;
   margin: 0 auto;
 }
@@ -487,8 +493,8 @@ input:hover {
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -506,8 +512,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1010px) {
@@ -517,10 +523,12 @@ header {
   .main_client .images {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
-  .our_work .line1 img, .line2 img, .line3 img {
+  .our_work .line1 img,
+  .line2 img,
+  .line3 img {
     margin-right: 0px;
   }
   .line1 img:not(:first-child) {
@@ -570,8 +578,8 @@ header {
   div.team_cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 0 auto;
   }
   .card p {
@@ -583,16 +591,15 @@ header {
 }
 
 @media screen and (max-width: 1500px) {
-
   main .main_about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-            align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
   }
   main .wrapper {
     width: 100%;
@@ -600,8 +607,8 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   main .main_about .about_right {
     margin-left: 0px;
@@ -613,12 +620,12 @@ header {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .services_cards {
     -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
   }
   .main_services .line + p {
     padding: 20px;
@@ -631,21 +638,20 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .about_left img {
     width: 70%;
     margin-bottom: 20px;
   }
- 
+
   main .about_right h2 {
     font-size: 20px;
     margin: 0px;
     border: none;
     color: #f79412;
     padding: 0 10px 0 10px;
-    
   }
   main .about_right p {
     font-size: 16px;
